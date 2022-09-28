@@ -1,13 +1,13 @@
-import bagpy
-from bagpy import bagreader
+import csv
+import os.path
 import sys
 
-import csv, os.path
-import pandas as pd
-import seaborn as sea
+import bagpy
 import matplotlib.pyplot as plt
 import numpy as np
-
+import pandas as pd
+import seaborn as sea
+from bagpy import bagreader
 
 b = bagreader('2022-08-26-15-18-39.bag')
 csvfiles = []
